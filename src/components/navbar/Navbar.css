@@ -1,0 +1,146 @@
+.--navbar2 {
+    position: sticky !important;
+    top: 77px !important;
+    background-color: #000 !important;
+    z-index: 999;
+}
+.navbar-1{
+    background-color: #0c112a;
+}
+.navbar-2{
+    width: 90%;
+    margin-left: 58px;
+    background-color: aquamarine;
+}
+
+.hed-1{
+    height: 70px;
+    width: 70px;
+}
+.navbar-brand {
+    letter-spacing: 0.2rem;
+    font-family: cursive;
+}
+
+.navItem{
+    margin-left: 85px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.dropend .dropdown-toggle {
+    color: #fff;
+    margin-left: 16px;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+.face{
+   
+    background-color: #4173b8 ;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.twiter{
+   
+    background-color:  #1DA1F2 ;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.linked{
+   
+    background-color: #0077b5  ;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nav-head-2{
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.yt{
+   
+    background-color:  #FF0000 ;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.insta{
+   
+    background-color:  #ee2a7b    ;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.insta:hover, .twiter:hover, .yt:hover, .linked:hover, .face:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(20, 177, 220));
+   color: black;
+}
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-top: -2.5px;
+    margin-left: 2px;
+}
+.mini{
+    background-color: #000080;
+}
+.dropdown-menu {
+    display: inline-block;
+    animation: backInDown;
+    animation-duration: 800ms;
+}
+.nav-item:hover{
+    background-color: #0082F8;
+}
+.fab:hover {
+    color: orangered;
+}
+
+
+@media screen and (min-width:992px) {
+    .dropend:hover>.dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+
+    .dropend .dropdown-toggle {
+        margin-left: 8px;
+    }
+}

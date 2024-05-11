@@ -1,0 +1,51 @@
+.about-us{
+  overflow-x: hidden;
+}
+.about-us .banner{
+    background-Size: cover;
+    background-Position: center;
+    text-Align: center;
+    padding: 150px 0;
+    color: white;
+    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.305);
+}
+.typewriter-over{
+  
+  filter: drop-shadow(0 0 0.75rem #010101);
+}
+.our-hrading{
+  top: 20%;
+}
+.overlay{
+    background-Color: rgba(0, 0, 255, 0.267);
+}
+
+
+@media (max-width: 600px) {
+  .about-us .banner{
+    padding: 100px 0;
+    position: relative;
+  }
+
+  .overlay{
+    position: absolute;
+    padding: 121px 0;
+  }
+
+  .kid1{
+    margin-top: 1rem;
+  }
+
+  .kid2{
+    margin: 2rem 0 0 4rem;
+  }
+
+  .kid3{
+    margin: 2rem 0 0 0;
+  }
+
+  .kid5{
+    margin: 2rem 0 0 0;
+  }
+
+}

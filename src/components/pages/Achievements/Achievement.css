@@ -1,0 +1,48 @@
+body{
+    overflow-x: hidden;
+}
+.achive{
+    position: relative;
+}
+.Achievement-heading{
+   position: absolute;
+   top: 50%;
+   left: 20%;
+}
+.img-2{
+    height: 550px;
+    width: 100%;
+}
+.Achivement-heading{
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(5, 22, 80);
+    background-color: aqua;
+    text-shadow: 2px 2px 2px rgb(52, 70, 94);
+}
+.img-1{
+    height: 350px;
+    width: 600px;
+    box-shadow: 5px 5px 5px 5px black;
+    opacity: 1.8;
+    transition-duration: 0.5s;
+}
+.img-1:hover{
+    display: block;
+    transform: scale(0.95);
+    box-shadow: none;
+  
+}
+@media screen and (max-width: 1024px) {
+    .img-1{
+        height: auto;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    h1{
+        font-size: 30px;
+    }
+    
+}

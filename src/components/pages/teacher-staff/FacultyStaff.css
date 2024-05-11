@@ -1,0 +1,66 @@
+body {
+    overflow-x: hidden;
+}
+.img-1 {
+    height:auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-faculty {
+    height: 300PX;
+    width: 250px;
+   margin: 20px 0px 20px 0px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.faculty-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.intro {
+    height: 60px;
+    width: 250px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: #0082F8 ;
+    color: black;
+    top: 260px;
+    border-bottom-right-radius: 50px;
+}
+
+.Facility-heading {
+    background-color: rgb(189, 236, 238);
+    color: rgb(84, 13, 90);
+}
+
+.para {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card-faculty:hover {
+    cursor: pointer;
+
+}
+
+.card-faculty:hover .intro {
+    height: 200px;
+    top: 120px;
+
+}
+
+.card-faculty:hover .para {
+    opacity: 1;
+    visibility: visible;
+}
+
