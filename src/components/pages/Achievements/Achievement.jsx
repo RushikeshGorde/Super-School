@@ -40,32 +40,29 @@ export default function Achievement() {
                 </div>
                 <div class="row">
                     <div class="col-sm">
-                    <div className="school-card" data-aos="fade-right">
-                                <h2 className='text-center p-3 m-2'>Best Education Achievement</h2>
-                                <p className="text-center p-3 m-2">
-                                    Achievement points are used in lessons to identify and reward student achievement and effort. Students who contribute to the positive ethos of the school are recognised and rewarded.Ultimately, the measure of success after completing education depends on individual goals, values, and aspirations.
-                                </p>
-                            </div>
+                        <div className="school-card" data-aos="fade-right">
+                            <h2 className='text-center p-3 m-2'>Best Education Achievement</h2>
+                            <p className="text-center p-3 m-2">
+                                Achievement points are used in lessons to identify and reward student achievement and effort. Students who contribute to the positive ethos of the school are recognised and rewarded.Ultimately, the measure of success after completing education depends on individual goals, values, and aspirations.
+                            </p>
+                        </div>
                     </div>
                     <div class="col-sm">
-                    <div className="school-card " data-aos="fade-left">
-                                <img className="img-1" src="https://www.ipwspv.com/pages/AM_VJY.jpg" alt="" />
-                            </div>
+                        <div className="school-card " data-aos="fade-left">
+                            <img className="img-1" src="https://www.ipwspv.com/pages/AM_VJY.jpg" alt="" />
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div className="container-school-achievement">
                 <div>
                     <h2 className='text-center mt-5 fs-1 fw-bold'><span className='head-frist'>Collage</span><span className='head-second ms-3'>Achievement</span> </h2>
                 </div>
-                <div className="school-achievement ">
-                    <div className="row m-5">
-                        <div className="col">
-                            <div className="school-card" data-aos="fade-right">
-                                <img className="img-1" src="https://www.mercyhome.org/wp-content/uploads/2022/07/Academic_Awards_Michael_and_Sayyid.jpg" alt="" />
-                            </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <div className="school-card" data-aos="fade-right">
+                            <img className="img-1" src="https://www.mercyhome.org/wp-content/uploads/2022/07/Academic_Awards_Michael_and_Sayyid.jpg" alt="" />
                         </div>
+                    </div>
+                    <div class="col-sm">
                         <div className="col" data-aos="fade-left">
                             <div className="school-card" data-aos="fade-right">
                                 <h3 className='text-center  p-3 m-2' data-aos="fade-up"> <strong>Recipient:</strong>Starcatchers</h3>
@@ -74,54 +71,58 @@ export default function Achievement() {
 
                         </div>
                     </div>
-                    <div className="row m-5">
-                        <div className="col">
-                            <div className="school-card" data-aos="fade-right">
-                                <h2 className='text-center p-3 m-2'>Best Education Achievement</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <div className="school-card" data-aos="fade-right">
+                            <h2 className='text-center p-3 m-2'>Best Education Achievement</h2>
+                            <h3 className='text-center  p-3 m-2' data-aos="fade-up"> <strong>Recipient:</strong> Pom Squad</h3>
+                            <p className="text-center" data-aos="fade-up">It is a great honour to be standing here today to receive this award for my solo dance performance.It's a special moment to celebrate success, acknowledge hard work, and appreciate everyone's contributions.</p>
+                        </div>
+                    </div>
+                    <div className="school-card " data-aos="fade-left">
+                        <img className="img-1" src="https://img.chmedia.ch/2023/01/20/ae9e8d42-b9fc-4bdd-889a-7b2e48d660e0.jpeg?width=1360&height=907&fit=bounds&quality=75&auto=webp&crop=8192,5462,x0,y0" alt="" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                    <div className="school-card" data-aos="fade-right">
+                                <img className="img-1" src="https://rockytopsportsworld.com/wp-content/uploads/2018/10/A-group-of-boys-on-a-soccer-team-hoisting-a-trophy-in-the-air.jpg" alt="" />
+                            </div>
+                    </div>
+                    <div class="col-sm">
+                        <div className="col" data-aos="fade-left">
+                        <div className="school-card" data-aos="fade-right">
                                 <h3 className='text-center  p-3 m-2' data-aos="fade-up"> <strong>Recipient:</strong> Pom Squad</h3>
                                 <p className="text-center" data-aos="fade-up">It is a great honour to be standing here today to receive this award for my solo dance performance.It's a special moment to celebrate success, acknowledge hard work, and appreciate everyone's contributions.</p>
                             </div>
-                        </div>
-                        <div className="col">
-                            <div className="school-card " data-aos="fade-left">
-                                <img className="img-1" src="https://img.chmedia.ch/2023/01/20/ae9e8d42-b9fc-4bdd-889a-7b2e48d660e0.jpeg?width=1360&height=907&fit=bounds&quality=75&auto=webp&crop=8192,5462,x0,y0" alt="" />
-                            </div>
+
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="container-school-achievement">
-
-                <div className="school-achievement ">
-                    <div className="row m-5">
-                        <div className="col">
-                            <div className="school-card" data-aos="fade-right">
-                                <img className="img-1" src="https://rockytopsportsworld.com/wp-content/uploads/2018/10/A-group-of-boys-on-a-soccer-team-hoisting-a-trophy-in-the-air.jpg" alt="" />
-                            </div>
-                        </div>
+                <div class="row">
+                    
+                    <div class="col-sm">
                         <div className="col" data-aos="fade-left">
-                            <div className="school-card" data-aos="fade-right">
-                                <h3 className='text-center  p-3 m-2' data-aos="fade-up"> <strong>Recipient:</strong> Pom Squad</h3>
-                                <p className="text-center" data-aos="fade-up">It is a great honour to be standing here today to receive this award for my solo dance performance.It's a special moment to celebrate success, acknowledge hard work, and appreciate everyone's contributions.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div className="row m-5">
-                        <div className="col">
-                            <div className="school-card" data-aos="fade-right">
+                        <div className="school-card" data-aos="fade-right">
                                 <h3 className='text-center p-3 m-2' data-aos="fade-up"><strong>Recipient:</strong> John Doe</h3>
                                 <p className='text-center' data-aos="fade-left">Student exemplifies our school motto of Excellence, Honour and Service and is highly recommended and extremely deserving of this award. </p>
                             </div>
-                        </div>
-                        <div className="col">
-                            <div className="school-card " data-aos="fade-left">
-                                <img className="img-1" src="https://i.pinimg.com/originals/95/33/b8/9533b8b9c945f47ca6a82b0a38cff0f1.png" alt="" />
-                            </div>
+
                         </div>
                     </div>
+                    <div class="col-sm">
+                    <div className="school-card " data-aos="fade-left">
+                                <img className="img-1" src="https://i.pinimg.com/originals/95/33/b8/9533b8b9c945f47ca6a82b0a38cff0f1.png" alt="" />
+                            </div>
+                    </div>
                 </div>
+               
+
             </div>
+
+           
+        
 
             <div className='For_Background_Image'>
 
