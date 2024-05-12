@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import './Achievement.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Typewriter from "typewriter-effect";
 export default function Achievement() {
 
     useEffect(() => {
@@ -17,48 +16,48 @@ export default function Achievement() {
         <div>
             <div className="container-fluid p-0 achive" data-aos="zoom-y-out">
                 <div> <img className='img-2' src=" https://static.vecteezy.com/system/resources/previews/035/775/563/large_2x/ai-generated-golden-trophy-cup-with-star-on-dark-blue-background-3d-rendering-champion-golden-trophy-with-gold-stars-on-a-dark-blue-background-ai-generated-free-photo.jpg" alt="" />
-                    
+
                 </div>
             </div>
-            <div className="container-school-achievement">
+            <div class="container-fluid">
                 <div>
-                <h2 className='text-center mt-5 fs-1 fw-bold'><span className='head-frist'>Student</span><span className='head-second ms-3'>Achievement</span> </h2>
+                    <h2 className='text-center mt-5 fs-1 fw-bold'><span className='head-frist'>Student</span><span className='head-second ms-3'>Achievement</span> </h2>
                 </div>
-                <div className="school-achievement ">
-                    <div className="row m-5">
-                        <div className="col">
-                            <div className="school-card" data-aos="fade-right">
-                                <img className="img-1" src="https://kairosinternationalschool.com/wp-content/uploads/2023/10/WhatsApp-Image-2023-10-27-at-3.10.13-PM-768x768.jpeg" alt="" />
-                            </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <div className="school-card" data-aos="fade-right">
+                            <img className="img-1" src="https://kairosinternationalschool.com/wp-content/uploads/2023/10/WhatsApp-Image-2023-10-27-at-3.10.13-PM-768x768.jpeg" alt="" />
                         </div>
+                    </div>
+                    <div class="col-sm">
                         <div className="col" data-aos="fade-left">
                             <div className="school-card" data-aos="fade-right">
                                 <h2 className='text-center p-3 m-2' >Best School Achievement</h2>
                                 <p className='text-center p-3 m-2'>The winner of the Worlds' Best School Prize for Innovation 2023: The Super School, an independent international school in Maharashtra, which has gained worldwide recognition for its groundbreaking, student-centric approach to education with its I CAN pedagogical model.</p>
                             </div>
-
                         </div>
                     </div>
-                    <div className="row m-5">
-                        <div className="col">
-                            <div className="school-card" data-aos="fade-right">
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                    <div className="school-card" data-aos="fade-right">
                                 <h2 className='text-center p-3 m-2'>Best Education Achievement</h2>
                                 <p className="text-center p-3 m-2">
                                     Achievement points are used in lessons to identify and reward student achievement and effort. Students who contribute to the positive ethos of the school are recognised and rewarded.Ultimately, the measure of success after completing education depends on individual goals, values, and aspirations.
                                 </p>
                             </div>
-                        </div>
-                        <div className="col">
-                            <div className="school-card " data-aos="fade-left">
+                    </div>
+                    <div class="col-sm">
+                    <div className="school-card " data-aos="fade-left">
                                 <img className="img-1" src="https://www.ipwspv.com/pages/AM_VJY.jpg" alt="" />
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
+
             <div className="container-school-achievement">
                 <div>
-                <h2 className='text-center mt-5 fs-1 fw-bold'><span className='head-frist'>Collage</span><span className='head-second ms-3'>Achievement</span> </h2>
+                    <h2 className='text-center mt-5 fs-1 fw-bold'><span className='head-frist'>Collage</span><span className='head-second ms-3'>Achievement</span> </h2>
                 </div>
                 <div className="school-achievement ">
                     <div className="row m-5">
