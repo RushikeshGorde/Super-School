@@ -86,7 +86,7 @@ export default function Achievement() {
                 </div>
                 <div class="row">
                     <div class="col-sm">
-                    <div className="school-card" data-aos="fade-right">
+                    <div className="school-card mt-5" data-aos="fade-right">
                                 <img className="img-1" src="https://rockytopsportsworld.com/wp-content/uploads/2018/10/A-group-of-boys-on-a-soccer-team-hoisting-a-trophy-in-the-air.jpg" alt="" />
                             </div>
                     </div>
