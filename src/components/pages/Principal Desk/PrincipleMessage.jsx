@@ -11,7 +11,7 @@ const PrincipalMessage = () => {
         </div>
 
         <div className="principal-msg">
-        <h2 className='text-center mt-5 principal-heading fs-1 fw-bold'><span className='head-frist mt-5'>Suchitra</span><span className='mt-5'>Bendre</span> </h2>
+        <h2 className='text-center principal-heading fs-1 fw-bold'><span className='head-frist mt-5'>Suchitra</span><span className='mt-5'>Bendre</span> </h2>
           <p><b>WELCOME!!</b></p>
           <p>Welcome to Super School, where we embrace the opportunity to be a part of your child's educational journey. As a school we celebrate our heritage as an institution committed to academic excellence.</p>
           <p>While honouring the traditions of our past, Super School is recognised for its innovative learning methods, partnerships, and entrepreneurial advancements and as a leader in modern approaches to education.</p>
