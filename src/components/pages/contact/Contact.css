@@ -283,11 +283,3 @@
     -webkit-animation: bounce-in-bottom 1.8s both;
     animation: bounce-in-bottom 1.8s both;
 }
-@media (min-width: 320px) and (max-width: 920px) {
-    
-    .Intro-image {
-       
-        height: 210px;
-    }
-
-}

@@ -398,3 +398,12 @@ body {
     padding: 10px;
     opacity: 0.70;
 }
+
+@media (min-width: 320px) and (max-width: 920px) {
+    
+    .Intro-image {
+       
+        height: 210px;
+    }
+
+}
