@@ -5,7 +5,7 @@ const PrincipalMessage = () => {
 
   return (
     <div className="p-0 container-fluid principal-msg">
-      <div className="main-container mt-5">
+      <div className="main-container">
         <div className="text-center">
           <img src="https://media.list.ly/production/323435/1969224/item1969224_600px.jpeg?ver=5675775519" className='principal-img rounded-circle' alt="principal" />
         </div>
