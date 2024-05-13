@@ -150,7 +150,7 @@ function CourseCard({ id, title, rating, description, imageUrl, index, handleRea
           <Card.Body className="unique-card-body-course">
             <Card.Title className="unique-card-title-course">{title}</Card.Title>
             <Card.Subtitle className="unique-card-rating mb-2 text-muted">Rating: {rating}</Card.Subtitle>
-            <Card.Text className='unique-card-descrption'>{description}</Card.Text>
+            <Card.Text className='unique-card-descrption text-light'>{description}</Card.Text>
             <Button variant="primary" onClick={() => handleReadMore(id)}>Read more</Button>
           </Card.Body>
         </div>
