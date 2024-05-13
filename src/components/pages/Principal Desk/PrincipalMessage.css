@@ -52,12 +52,12 @@
 }
 @media (min-width: 320px) and (max-width: 920px) {
   .principal-heading {
-    margin-top: 80px
+    margin-top: 110px
   }
   .principal-img {
     width: 120px;
     height: 120px;
-    margin-top: 48px
+    margin-top: 61px
   }
 
 }
