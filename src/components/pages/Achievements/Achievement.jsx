@@ -80,8 +80,11 @@ export default function Achievement() {
                             <p className="text-center" data-aos="fade-up">It is a great honour to be standing here today to receive this award for my solo dance performance.It's a special moment to celebrate success, acknowledge hard work, and appreciate everyone's contributions.</p>
                         </div>
                     </div>
+                    <div class="col-sm">
+
                     <div className="school-card " data-aos="fade-left">
                         <img className="img-1" src="https://img.chmedia.ch/2023/01/20/ae9e8d42-b9fc-4bdd-889a-7b2e48d660e0.jpeg?width=1360&height=907&fit=bounds&quality=75&auto=webp&crop=8192,5462,x0,y0" alt="" />
+                    </div>
                     </div>
                 </div>
                 <div class="row">
