@@ -4,13 +4,13 @@ import './PrincipalMessage.css';
 const PrincipalMessage = () => {
 
   return (
-    <div className="p-0 container-fluid">
+    <div className="p-0 container-fluid principal-msg">
       <div className="main-container mt-5">
         <div className="text-center">
-          <img src="https://media.list.ly/production/323435/1969224/item1969224_600px.jpeg?ver=5675775519" className='principal-img mt-5 rounded-circle' alt="principal" />
+          <img src="https://media.list.ly/production/323435/1969224/item1969224_600px.jpeg?ver=5675775519" className='principal-img rounded-circle' alt="principal" />
         </div>
 
-        <div className="principal-msg">
+        <div className="">
         <h2 className='text-center principal-heading fs-1 fw-bold'><span className='head-frist mt-5'>Suchitra</span><span className='mt-5'>Bendre</span> </h2>
           <p><b>WELCOME!!</b></p>
           <p>Welcome to Super School, where we embrace the opportunity to be a part of your child's educational journey. As a school we celebrate our heritage as an institution committed to academic excellence.</p>
