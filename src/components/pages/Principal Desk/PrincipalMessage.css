@@ -26,6 +26,10 @@
   padding: 10% 4% 2% 4%;
   animation: fadeIn 1s ease-in-out;
 }
+.principal-img {
+ 
+  margin-top: 10px
+}
 
 @keyframes fadeIn {
   0% {
