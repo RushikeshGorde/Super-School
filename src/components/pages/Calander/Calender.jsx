@@ -359,7 +359,7 @@ const CombinedComponent = () => {
   return (
     <Container fluid style={{ margin: 0, padding: 0 }}>
       <div
-        className="hero d-flex align-items-center justify-content-center"
+        className="hero  d-flex align-items-center justify-content-center"
         style={{
           height: "80vh",
           backgroundColor: "salmon",
@@ -380,6 +380,9 @@ const CombinedComponent = () => {
           />
         </div>
       </div>
+      <div className="container">
+
+      
 
       <Container className="p-5 mt-5">
         <FullCalendar
@@ -454,18 +457,19 @@ const CombinedComponent = () => {
           background: "linear-gradient(90deg, #780206 0%, #061161 100%)",
         }}
       />
-     <div className='For_Background_Image'>
+      </div>
+      <div className='For_Background_Image'>
 
-<div className="imagefix1 text-center">
-  <div className="container">
+        <div className="imagefix1 text-center">
+          <div className="container">
 
-    <h3>Tell Us What Are You Looking For</h3>
-    <h5>It strives to deliver value-based quality education and imbibe top-class management skills</h5>
-    <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
-  </div>
-</div>
+            <h3>Tell Us What Are You Looking For</h3>
+            <h5>It strives to deliver value-based quality education and imbibe top-class management skills</h5>
+            <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
+          </div>
+        </div>
 
-</div>
+      </div>
     </Container>
 
   );
