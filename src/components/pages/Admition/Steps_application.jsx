@@ -44,7 +44,7 @@ const AdmissionSteps = () => {
             </div>
             <div className="row mt-5">
               <div className="col class_col">
-            <div className="container">
+            <div className="container table-step">
             <table className="table class_table ">
                   <tbody>
                     <tr>
