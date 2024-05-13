@@ -333,9 +333,13 @@ const OurMissionVision = () => {
       </div>
       <div className='For_Background_Image'>
 
-        <div className="imagefix1"><h4>Tell Us What Are You Looking For</h4>
-          <h6>It strives to deliver value-based quality education and imbibe top-class management skills</h6>
-          <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
+        <div className="imagefix1">
+          <div className="container">
+
+            <h4>Tell Us What Are You Looking For</h4>
+            <h6>It strives to deliver value-based quality education and imbibe top-class management skills</h6>
+            <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
+          </div>
         </div>
 
       </div>
