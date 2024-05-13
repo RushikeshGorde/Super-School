@@ -43,7 +43,9 @@
     height: 200px;
   }
 }
-
+.principal-heading {
+  margin-top: 180px
+}
 @media (min-width: 320px) and (max-width: 920px) {
   .principal-heading {
     margin-top: 80px
@@ -54,6 +56,7 @@
   .principal-img {
     width: 120px;
     height: 120px;
+    margin-top: 48px
   }
 
 }
