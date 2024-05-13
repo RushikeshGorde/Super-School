@@ -159,13 +159,13 @@
 
     .navItem {
         margin-left: 24px;
-        width: 86%;
+       
 
     }
 }
 
 @media screen and (min-width:992px) {
-    .dropend:hover>.dropdown-menu {
+    .dropend:hover.dropdown-menu {
         position: absolute;
         top: 0;
         left: 100%;
