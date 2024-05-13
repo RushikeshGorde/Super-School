@@ -139,9 +139,14 @@ export default function FacultyStaff() {
       </div>
       <div className='For_Background_Image'>
 
-<div className="imagefix1"><h1>Tell Us What Are You Looking For</h1>
-    <h3>It strives to deliver value-based quality education and imbibe top-class management skills</h3>
-    <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>                </div>
+<div className="imagefix1 text-center">
+  <div className="container">
+
+    <h3>Tell Us What Are You Looking For</h3>
+    <h5>It strives to deliver value-based quality education and imbibe top-class management skills</h5>
+    <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
+  </div>
+</div>
 
 </div>
     </div>

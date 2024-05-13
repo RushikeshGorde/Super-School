@@ -86,49 +86,53 @@ export default function Achievement() {
                 </div>
                 <div class="row">
                     <div class="col-sm">
-                    <div className="school-card mt-5" data-aos="fade-right">
-                                <img className="img-1" src="https://rockytopsportsworld.com/wp-content/uploads/2018/10/A-group-of-boys-on-a-soccer-team-hoisting-a-trophy-in-the-air.jpg" alt="" />
-                            </div>
+                        <div className="school-card mt-5" data-aos="fade-right">
+                            <img className="img-1" src="https://rockytopsportsworld.com/wp-content/uploads/2018/10/A-group-of-boys-on-a-soccer-team-hoisting-a-trophy-in-the-air.jpg" alt="" />
+                        </div>
                     </div>
-                    <div class="col-sm">
-                        <div className="col" data-aos="fade-left">
-                        <div className="school-card" data-aos="fade-right">
+                 
+                        <div className="col-sm" data-aos="fade-left">
+                            <div className="school-card" data-aos="fade-right">
                                 <h3 className='text-center  p-3 m-2' data-aos="fade-up"> <strong>Recipient:</strong> Pom Squad</h3>
                                 <p className="text-center" data-aos="fade-up">It is a great honour to be standing here today to receive this award for my solo dance performance.It's a special moment to celebrate success, acknowledge hard work, and appreciate everyone's contributions.</p>
                             </div>
 
-                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    
-                    <div class="col-sm">
-                        <div className="col" data-aos="fade-left">
-                        <div className="school-card" data-aos="fade-right">
+
+                   
+                        <div className="col-sm" data-aos="fade-left">
+                            <div className="school-card" data-aos="fade-right">
                                 <h3 className='text-center p-3 m-2' data-aos="fade-up"><strong>Recipient:</strong> John Doe</h3>
                                 <p className='text-center' data-aos="fade-left">Student exemplifies our school motto of Excellence, Honour and Service and is highly recommended and extremely deserving of this award. </p>
-                            </div>
+                           
 
                         </div>
                     </div>
                     <div class="col-sm">
-                    <div className="school-card " data-aos="fade-left">
-                                <img className="img-1" src="https://i.pinimg.com/originals/95/33/b8/9533b8b9c945f47ca6a82b0a38cff0f1.png" alt="" />
-                            </div>
+                        <div className="school-card " data-aos="fade-left">
+                            <img className="img-1" src="https://i.pinimg.com/originals/95/33/b8/9533b8b9c945f47ca6a82b0a38cff0f1.png" alt="" />
+                        </div>
                     </div>
                 </div>
-               
+
 
             </div>
 
-           
-        
+
+
 
             <div className='For_Background_Image'>
 
-                <div className="imagefix1"><h1>Tell Us What Are You Looking For</h1>
-                    <h3>It strives to deliver value-based quality education and imbibe top-class management skills</h3>
-                    <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>                </div>
+                <div className="imagefix1 text-center">
+                    <div className="container">
+
+                        <h3>Tell Us What Are You Looking For</h3>
+                        <h5>It strives to deliver value-based quality education and imbibe top-class management skills</h5>
+                        <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
+                    </div>
+                </div>
 
             </div>
         </div>
