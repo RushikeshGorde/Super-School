@@ -31,7 +31,7 @@ const OurMissionVision = () => {
         <div className='typewriter-over' style={{ fontSize: "4rem" }}>
           <Typewriter
             options={{
-              strings: [" Our Mission & Vision"],
+              strings: ["Our Mission & Vision"],
               autoStart: true,
               loop: true,
               cursor: '<span style="font-size: 4rem;">|</span>',

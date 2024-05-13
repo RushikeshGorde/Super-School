@@ -16,20 +16,13 @@
 .our-hrading{
   top: 20%;
 }
-.overlay{
-    background-Color: rgba(0, 0, 255, 0.267);
-}
+
 
 
 @media (max-width: 600px) {
   .about-us .banner{
     padding: 100px 0;
     position: relative;
-  }
-
-  .overlay{
-    position: absolute;
-    padding: 121px 0;
   }
 
   .kid1{
