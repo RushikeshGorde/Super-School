@@ -333,7 +333,7 @@ const OurMissionVision = () => {
       </div>
       <div className='For_Background_Image'>
 
-        <div className="imagefix1">
+        <div className="imagefix1 text-center">
           <div className="container">
 
             <h4>Tell Us What Are You Looking For</h4>
