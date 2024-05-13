@@ -28,16 +28,16 @@ const OurMissionVision = () => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
-        <div className='typewriter-over' style={{ fontSize: "4rem" }}>
-          <Typewriter
-            options={{
-              strings: ["Our Mission & Vision"],
-              autoStart: true,
-              loop: true,
-              cursor: '<span style="font-size: 4rem;">|</span>',
-            }}
-          />
-        </div>
+          <div className='typewriter-over' style={{ fontSize: "4rem" }}>
+            <Typewriter
+              options={{
+                strings: ["Our Mission & Vision"],
+                autoStart: true,
+                loop: true,
+                cursor: '<span style="font-size: 4rem;">|</span>',
+              }}
+            />
+          </div>
           {/* <h1 className="fw-bolder z-1 position-relative our-hrading">
             <motion.span
               initial={{ y: -20, opacity: 0 }}
@@ -332,13 +332,13 @@ const OurMissionVision = () => {
         </Container>
       </div>
       <div className='For_Background_Image'>
-      
-      <div className="imagefix1"><h1>Tell Us What Are You Looking For</h1>
-      <h3>It strives to deliver value-based quality education and imbibe top-class management skills</h3>
-      <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
+
+        <div className="imagefix1"><h4>Tell Us What Are You Looking For</h4>
+          <h6>It strives to deliver value-based quality education and imbibe top-class management skills</h6>
+          <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
+        </div>
+
       </div>
-      
-    </div>
     </div>
   );
 };
