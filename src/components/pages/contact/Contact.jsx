@@ -52,71 +52,71 @@ const Contact = () => {
 
   return (
     <>
-    <div className="contact_fixed_image">
-      <div ref={ref} className="contact-container" id="contact">
-      
-        <div className="container">
-         
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="contact-wrapper">
-              <h2 className='text-center mt-5 fs-1 fw-bold'><span className='head-frist'>Super</span><span className='head-second ms-3'>School</span> </h2>
+      <div className="contact_fixed_image">
+        <div ref={ref} className="contact-container" id="contact">
 
-                <br />
-                <address className="contact-address ">
-                  <i className="fas fa-map-marker-alt class_icon"></i>
-                  &nbsp;&nbsp;&nbsp;
-                  <strong className="class_strong_contact">411-006, Regus Skye One &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unit No 101,</strong><br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kalyani Nagar,<br />
+          <div className="container">
+
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="contact-wrapper">
+                  <h2 className='text-center mt-5 fs-1 fw-bold'><span className='head-frist'>Super</span><span className='head-second ms-3'>School</span> </h2>
+
                   <br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pune - 411-006
-                  <br /><br />
-                
-                  <FontAwesomeIcon icon={faPhoneAlt} className="class_icon" />                &nbsp;&nbsp;&nbsp;
-                <a href="tel:+9195195119521" className="contact-link">+91 801 077 8440</a> <br /> <br />
-                <i className="fas fa-envelope class_icon"></i>
-                &nbsp;&nbsp;&nbsp;
-                <a href="mailto:info@cyboardschool.com" className="contact-link">info@numetry.in</a>
-              
-                </address>
+                  <address className="contact-address ">
+                    <i className="fas fa-map-marker-alt class_icon"></i>
+                    &nbsp;&nbsp;&nbsp;
+                    <strong className="class_strong_contact">411-006, Regus Skye One &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unit No 101,</strong><br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kalyani Nagar,<br />
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pune - 411-006
+                    <br /><br />
 
-                
+                    <FontAwesomeIcon icon={faPhoneAlt} className="class_icon" />                &nbsp;&nbsp;&nbsp;
+                    <a href="tel:+9195195119521" className="contact-link">+91 801 077 8440</a> <br /> <br />
+                    <i className="fas fa-envelope class_icon"></i>
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="mailto:info@cyboardschool.com" className="contact-link">info@numetry.in</a>
+
+                  </address>
+
+
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <form ref={form} onSubmit={handleSubmit} className="contact-form">
+                  <h2 className='text-center fs-1 fw-bold'><span className='head-frist'>Contact</span><span className='head-second ms-3'>Us 🚀</span> </h2>
+                  <input
+                    className="contact-input"
+                    placeholder="Your Name"
+                    name="from_name"
+                  />
+                  <input
+                    className="contact-input"
+                    placeholder="Your Contact Number"
+                    name="contact_number"
+                  />
+                  <input
+                    className="contact-input"
+                    placeholder="Your Email"
+                    name="from_email"
+                  />
+                  <textarea
+                    className="contact-input-message"
+                    placeholder="Message"
+                    rows="4"
+                    name="message"
+                  />
+                  <input
+                    type="submit"
+                    className="contact-submit"
+                    value="Send"
+                  />
+                </form>
               </div>
             </div>
-            <div className="col-lg-6">
-              <form ref={form} onSubmit={handleSubmit} className="contact-form">
-              <h2 className='text-center fs-1 fw-bold'><span className='head-frist'>Contact</span><span className='head-second ms-3'>Us 🚀</span> </h2>
-                <input
-                  className="contact-input"
-                  placeholder="Your Name"
-                  name="from_name"
-                />
-                <input
-                  className="contact-input"
-                  placeholder="Your Contact Number"
-                  name="contact_number"
-                />
-                <input
-                  className="contact-input"
-                  placeholder="Your Email"
-                  name="from_email"
-                />
-                <textarea
-                  className="contact-input-message"
-                  placeholder="Message"
-                  rows="4"
-                  name="message"
-                />
-                <input
-                  type="submit"
-                  className="contact-submit"
-                  value="Send"
-                />
-              </form>
-            </div>
-          </div>
-         
-          
+
+
             <div className="col-lg-12 gmap-cont">
               <div className="googleMap">
                 <h1>Google Map</h1>
@@ -130,16 +130,16 @@ const Contact = () => {
                 ></iframe>
               </div>
             </div>
-         
-        </div>
-        <Snackbar
-          className="Snackbar"
-          open={open}
-          autoHideDuration={6000}
-          onClose={() => setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
+
+          </div>
+          <Snackbar
+            className="Snackbar"
+            open={open}
+            autoHideDuration={6000}
+            onClose={() => setOpen(false)}
+            message="Email sent successfully!"
+            severity="success"
+          />
         </div>
       </div>
     </>

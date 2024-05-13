@@ -1,5 +1,6 @@
 .gmap-cont {
-    margin: 16px !important;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
     box-shadow: 10px 10px 20px black;
     max-width: 1250px !important;
     border-radius: 16px;
