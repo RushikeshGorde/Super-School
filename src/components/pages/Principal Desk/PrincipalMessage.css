@@ -54,9 +54,6 @@
   .principal-heading {
     margin-top: 80px
   }
-}
-
-@media screen and (max-width: 320px) {
   .principal-img {
     width: 120px;
     height: 120px;
@@ -64,6 +61,8 @@
   }
 
 }
+
+
 
 
 
