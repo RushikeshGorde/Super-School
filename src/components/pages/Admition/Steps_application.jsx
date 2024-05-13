@@ -16,7 +16,7 @@ const AdmissionSteps = () => {
         <Admissions /> // Render Admissions component
       ) : (
         <section className="elementor-section " style={{ backgroundColor: '#f5f5dc' }}>
-          <div className="container p-5">
+          <div className="container">
             <div className="row">
               <div className="col">
                 <div className="text-center"> {/* Center align */}
@@ -44,7 +44,7 @@ const AdmissionSteps = () => {
             </div>
             <div className="row mt-5">
               <div className="col class_col">
-            <div className="container table-step">
+            <div className="container">
             <table className="table class_table ">
                   <tbody>
                     <tr>
