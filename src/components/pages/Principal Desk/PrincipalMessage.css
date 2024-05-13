@@ -8,11 +8,11 @@
   top: -3%;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1; 
+  z-index: 1;
 }
 
 .main-container {
-  position: relative; 
+  position: relative;
   padding-top: 12%;
 }
 
@@ -21,16 +21,18 @@
 }
 
 .principal-msg {
-  background-color: rgba(0, 0, 255, 0.5);;
+  background-color: rgba(0, 0, 255, 0.5);
+  ;
   color: white;
   padding: 10% 4% 2% 4%;
-  animation: fadeIn 1s ease-in-out; 
+  animation: fadeIn 1s ease-in-out;
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -42,17 +44,19 @@
     height: 200px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 920px) {
-  .principal-heading{
+  .principal-heading {
     margin-top: 80px
-    }
+  }
 }
+
 @media screen and (max-width: 320px) {
   .principal-img {
     width: 120px;
     height: 120px;
   }
-  
+
 }
 
 
@@ -63,18 +67,19 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Sedan+SC&family=Space+Grotesk:wght@300..700&display=swap');
-.imagefix1{
+
+.imagefix1 {
   font-family: "Playfair Display", serif;
   color: aliceblue;
   width: 100%;
   height: 400px !important;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 
-  
+
 }
 
 
@@ -99,31 +104,33 @@
 }
 
 
-.contact_us_button:hover{
+.contact_us_button:hover {
   transition: all 0.3s ease-in-out;
   scale: 1.2;
   cursor: pointer;
   place-content: center;
-	 color: white;
-	 text-shadow: 0 1px 0 #000;
-	 --border-angle: 0turn;
-	 --main-bg: conic-gradient(from var(--border-angle), #213, #112 5%, #112 60%, #213 95%);
-	 border: solid 5px transparent;
-	 border-radius: 2em;
-	 --gradient-border: conic-gradient(from var(--border-angle), transparent 25%, #08f, #f03 99%, transparent);
-	 background: var(--main-bg) padding-box, var(--gradient-border) border-box, var(--main-bg) border-box;
-	 background-position: center center;
-	 animation: bg-spin 3s linear infinite;
+  color: white;
+  text-shadow: 0 1px 0 #000;
+  --border-angle: 0turn;
+  --main-bg: conic-gradient(from var(--border-angle), #213, #112 5%, #112 60%, #213 95%);
+  border: solid 5px transparent;
+  border-radius: 2em;
+  --gradient-border: conic-gradient(from var(--border-angle), transparent 25%, #08f, #f03 99%, transparent);
+  background: var(--main-bg) padding-box, var(--gradient-border) border-box, var(--main-bg) border-box;
+  background-position: center center;
+  animation: bg-spin 3s linear infinite;
 }
 
 @keyframes bg-spin {
   to {
     --border-angle: 1turn;
- }
+  }
 }
+
 .box:hover {
   animation-play-state: paused;
 }
+
 @property --border-angle {
   syntax: "<angle>";
   inherits: true;
@@ -136,13 +143,13 @@
 
 
 /* This is just for Reference */
-.For_Background_Image{
-    background-image:  url("https://images.unsplash.com/photo-1629872928185-171e13c8e58b?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");  
-   
-  background-position: center;  
-      
-  background-repeat: no-repeat;  
-  background-attachment: fixed; 
+.For_Background_Image {
+  background-image: url("https://images.unsplash.com/photo-1629872928185-171e13c8e58b?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: 100% 1000px;
-  background-position:center  ;
-  }
+  background-position: center;
+}
