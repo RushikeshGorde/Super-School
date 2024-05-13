@@ -12,7 +12,7 @@ export default function FacultyStaff() {
   }, []);
   return (
     <div>
-      <div className="container-fluid">
+      <div className="container-fluid f-0">
           <img src="https://shared.ontariotechu.ca/shared/department/student-life/images/sl_staff-and-faculty-banner-illustrator-banner.jpg" className="img-1" alt="" />
       </div>
       <h2 className='text-center mt-5 fs-1 fw-bold'><span className='head-frist'>FOUN</span><span className='head-second'>DER</span> </h2>
