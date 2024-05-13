@@ -158,9 +158,8 @@
     }
 
     .navItem {
-        margin-left: 24px;
-       
-
+        margin-left: 14px;
+        width: 90%;
     }
 }
 
