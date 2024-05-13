@@ -40,9 +40,12 @@ body{
     }
     
 }
-@media screen and (max-width: 320px) {
-    h1{
-        font-size: 30px;
+
+
+@media (min-width: 320px) and (max-width: 920px) {
+    .img-2{
+        height: 200px;
+        
     }
-    
-}
+  
+  }
