@@ -28,7 +28,7 @@ const Navbar = () => {
                                         <Link className="nav-link text-white " to={'/twitter'}>
                                             <i className="fab fa-twitter twiter"></i>
                                         </Link>
-                                        <Link className="nav-link text-white" to={'/https://www.youtube.com/'}>
+                                        <Link className="nav-link text-white" to={'https://www.youtube.com/'}>
                                             <i className="fab fa-youtube yt"></i>
                                         </Link>
                                         <Link className="nav-link text-white" to={'/linkedin'}>
