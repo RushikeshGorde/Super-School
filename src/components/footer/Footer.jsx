@@ -23,7 +23,7 @@ function Footer() {
                                 <a className="nav-link text-white " to={'/twitter'}>
                                     <i className="fab fa-twitter twiter"></i>
                                 </a>
-                                <a className="nav-link text-white" to={'https://www.youtube.com/'}>
+                                <a className="nav-link text-white"  to={'https://www.youtube.com/'}>
                                     <i className="fab fa-youtube yt"></i>
                                 </a>
                                 <a className="nav-link text-white" to={'/linkedin'}>
