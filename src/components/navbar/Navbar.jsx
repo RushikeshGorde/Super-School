@@ -22,10 +22,10 @@ const Navbar = () => {
                             <div className="collapse navbar-collapse">
                                 <ul className="navbar-nav ml-auto">
                                     <li className="d-flex border-right">
-                                        <Link className="nav-link text-white" to={'/facebook'}>
+                                        <Link className="nav-link text-white" to={'https://www.facebook.com/'}>
                                             <i className="fab fa-facebook-f face"></i>
                                         </Link>
-                                        <Link className="nav-link text-white " to={'/twitter'}>
+                                        <Link className="nav-link text-white " to={'https://twitter.com/i/flow/login'}>
                                             <i className="fab fa-twitter twiter"></i>
                                         </Link>
                                         <Link className="nav-link text-white" to={'https://www.youtube.com/'}>
@@ -34,7 +34,7 @@ const Navbar = () => {
                                         <Link className="nav-link text-white" to={'/linkedin'}>
                                             <i className="fab fa-linkedin-in linked"></i>
                                         </Link>
-                                        <Link className="nav-link text-white" to={'/instagram'}>
+                                        <Link className="nav-link text-white" to={'https://www.instagram.com/accounts/login/?hl=en'}>
                                             <i className="fab fa-instagram insta"></i>
                                         </Link>
                                     </li>

@@ -17,10 +17,10 @@ function Footer() {
                         </div>
                         <div class="footer-menu">
                             <div className="address">
-                                <a className="nav-link text-white" to={'/facebook'}>
+                                <a className="nav-link text-white" to={'https://www.facebook.com/'}>
                                     <i className="fab fa-facebook-f face"></i>
                                 </a>
-                                <a className="nav-link text-white " to={'/twitter'}>
+                                <a className="nav-link text-white " to={'https://twitter.com/i/flow/login'}>
                                     <i className="fab fa-twitter twiter"></i>
                                 </a>
                                 <a className="nav-link text-white"  to={'https://www.youtube.com/'}>
@@ -29,7 +29,7 @@ function Footer() {
                                 <a className="nav-link text-white" to={'/linkedin'}>
                                     <i className="fab fa-linkedin-in linked"></i>
                                 </a>
-                                <a className="nav-link text-white" to={'/instagram'}>
+                                <a className="nav-link text-white" to={'https://www.instagram.com/accounts/login/?hl=en'}>
                                     <i className="fab fa-instagram insta"></i>
                                 </a>                            </div>
 
