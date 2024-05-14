@@ -1,6 +1,7 @@
 import React from 'react';
 import sc from "../Photo/sc1.png"
 import './Footer.css';
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -17,21 +18,21 @@ function Footer() {
                         </div>
                         <div class="footer-menu">
                             <div className="address">
-                                <a className="nav-link text-white" to={'https://www.facebook.com/'}>
+                                <Link className="nav-link text-white" to={'https://www.facebook.com/'}>
                                     <i className="fab fa-facebook-f face"></i>
-                                </a>
-                                <a className="nav-link text-white " to={'https://twitter.com/i/flow/login'}>
+                                </Link>
+                                <Link className="nav-link text-white " to={'https://twitter.com/i/flow/login'}>
                                     <i className="fab fa-twitter twiter"></i>
-                                </a>
-                                <a className="nav-link text-white"  to={'https://www.youtube.com/'}>
+                                </Link>
+                                <Link className="nav-link text-white"  to={'https://www.youtube.com/'}>
                                     <i className="fab fa-youtube yt"></i>
-                                </a>
-                                <a className="nav-link text-white" to={'/linkedin'}>
+                                </Link>
+                                <Link className="nav-link text-white" to={'/linkedin'}>
                                     <i className="fab fa-linkedin-in linked"></i>
-                                </a>
-                                <a className="nav-link text-white" to={'https://www.instagram.com/accounts/login/?hl=en'}>
+                                </Link>
+                                <Link className="nav-link text-white" to={'https://www.instagram.com/accounts/login/?hl=en'}>
                                     <i className="fab fa-instagram insta"></i>
-                                </a>                            </div>
+                                </Link>                            </div>
 
                         </div>
                     </div>
