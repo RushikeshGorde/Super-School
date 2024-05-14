@@ -105,7 +105,7 @@ function Footer() {
                 <div class="footer-copyright">
                     <div class="footer-copyright-wrapper">
                         <p class="footer-copyright-text">
-                            <a class="footer-copyright-link" href="#" target="_self"> ©2024. | Designed By: Super School. | All rights reserved. </a>
+                            <Link class="footer-copyright-link" to={'/contact-us'}  target="_self"> ©2024. | Designed By: Super School. | All rights reserved. </Link>
                         </p>
                     </div>
                 </div>
