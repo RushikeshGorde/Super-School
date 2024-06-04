@@ -127,7 +127,7 @@ const BlogPage = () => {
 
     return (
         <div>
-            <img src="https://contentadore.com/wp-content/uploads/2017/09/how-to-create-blog-1170x560.jpg" alt="Header Image" className="blog-header" />
+            <img src="https://contentadore.com/wp-content/uploads/2017/09/how-to-create-blog-1170x560.jpg" alt="Header Image" className="blog-header container" />
             <div className="container-fluid py-4">
                 <div className='blog-container'>
                     {blogPosts.map((post, index) => (
@@ -203,18 +203,18 @@ const BlogPage = () => {
             )}
             <div className='For_Background_Image'>
 
-<div className="imagefix1 text-center">
-    <div className="container">
+                <div className="imagefix1 text-center">
+                    <div className="container">
 
-        <h3>Tell Us What Are You Looking For</h3>
-        <h5>It strives to deliver value-based quality education and imbibe top-class management skills</h5>
-        <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
-    </div>
-</div>
+                        <h3>Tell Us What Are You Looking For</h3>
+                        <h5>It strives to deliver value-based quality education and imbibe top-class management skills</h5>
+                        <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
+                    </div>
+                </div>
 
-</div>
+            </div>
         </div>
-        
+
     );
 };
 export default BlogPage;
