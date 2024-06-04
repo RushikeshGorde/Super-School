@@ -8,7 +8,7 @@ function Reviews() {
   {
     id: 1,
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzQO48HPfAOcGehW7NQjskMg7nJRSP4vAL4BR5JQuBvw&s',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6B-EqTBZxfXiKCEkNn37JR6qqU-pHqNu_Hw&s',
     name: 'Ramesh Kumar',
     title: 'Father of Umesh Kumar',
     quote:
@@ -17,7 +17,7 @@ function Reviews() {
   {
     id: 2,
     image:
-      'https://img.freepik.com/free-photo/cheerful-indian-man_1098-18167.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQerMEs6BTz7AKRH_BgWcx39mJpaGlmbjKx20hMtlJakF92F7EZNDQfCS13T_tSS_fBVEg&usqp=CAU',
     name: 'Ajay Sharma ',
     title: 'Father of Nitish Sharma',
     quote:
@@ -26,7 +26,7 @@ function Reviews() {
   {
     id: 3,
     image:
-      'https://i.pinimg.com/736x/f6/8b/07/f68b07afcf0acea994b7681e9caaff35.jpg',
+      'https://img.freepik.com/free-photo/portrait-3d-male-doctor_23-2151107432.jpg',
     name: 'Ravi Verma',
     title: 'Father of Prakash Verma',
     quote:
@@ -35,7 +35,7 @@ function Reviews() {
   {
     id: 4,
     image:
-      'https://c8.alamy.com/comp/CW19JA/good-looking-mature-asian-indian-male-with-business-suit-isolated-CW19JA.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIzbL8v6Cdccu-4YarUBHdxKqFbJ8ULSzr5g&s',
     name: 'Vijay Tiwari',
     title: 'Father of Om Tiwari',
     quote:
