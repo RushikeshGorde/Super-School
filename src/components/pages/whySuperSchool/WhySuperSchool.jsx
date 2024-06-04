@@ -36,9 +36,9 @@ const WhySuperSchool = () => {
             </div>
             <br />
             <div>
-            <h2 className='text-center mt-5 fs-1 fw-bold'><span className='head-frist'>The Top Reasons</span><span className='head-second ms-3'>Our School Excels</span> </h2>
+                <h2 className='text-center mt-5 fs-1 fw-bold'><span className='head-frist'>The Top Reasons</span><span className='head-second ms-3'>Our School Excels</span> </h2>
 
-               
+
                 <div className="features">
                     <div className="p-3 m-2 rounded shadow-sm animate__animated animate__fadeInLeft animate__delay-3s " >
                         <FontAwesomeIcon icon={faBook} className="icon" />
@@ -152,16 +152,16 @@ const WhySuperSchool = () => {
             </div>
             <div className='For_Background_Image'>
 
-        <div className="imagefix1 text-center">
-          <div className="container">
+                <div className="imagefix1 text-center">
+                    <div className="container">
 
-            <h3>Tell Us What Are You Looking For</h3>
-            <h5>It strives to deliver value-based quality education and imbibe top-class management skills</h5>
-            <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
-          </div>
-        </div>
+                        <h3>Tell Us What Are You Looking For</h3>
+                        <h5>It strives to deliver value-based quality education and imbibe top-class management skills</h5>
+                        <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
+                    </div>
+                </div>
 
-      </div>
+            </div>
         </div>
 
     );
