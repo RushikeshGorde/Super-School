@@ -7,7 +7,7 @@ const PrincipalMessage = () => {
     <div className="p-0 container-fluid principal-msg">
       <div className="main-container">
         <div className="text-center">
-          <img src="https://media.list.ly/production/323435/1969224/item1969224_600px.jpeg?ver=5675775519" className='principal-img rounded-circle' alt="principal" />
+          <img src="https://img.freepik.com/free-photo/3d-cartoon-style-character_23-2151034081.jpg?t=st=1717494985~exp=1717498585~hmac=a4fc1c57e30ac29566f6c06f262785dd92c0310a7128bf200a5f5a2a1c11ae8b&w=740" className='principal-img rounded-circle' alt="principal" />
         </div>
 
         <div className="">
