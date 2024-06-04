@@ -431,7 +431,7 @@ const CombinedComponent = () => {
                   <img
                     src={selectedEvent.extendedProps.image}
                     alt={selectedEvent.title}
-                    className="img-fluid"
+                    className="img-fluid clander-img"
                   />
                   <p className="event-description">
                     {selectedEvent.extendedProps.description}
