@@ -3,7 +3,7 @@ import './animities.css'
 import Typewriter from "typewriter-effect";
 const AmenitiesCard = ({ image, heading, description }) => {
     return (
-        <div className="card animi-card">
+        <div className="animi-card">
             <div className="card-inner">
                 <div className="card-front">
                     <img src={image} alt="Amenity" />
