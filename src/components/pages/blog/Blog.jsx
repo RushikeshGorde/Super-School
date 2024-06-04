@@ -127,7 +127,7 @@ const BlogPage = () => {
 
     return (
         <div>
-            <img src="https://contentadore.com/wp-content/uploads/2017/09/how-to-create-blog-1170x560.jpg" alt="Header Image" className="blog-header container-fluid" />
+            <img src="https://contentadore.com/wp-content/uploads/2017/09/how-to-create-blog-1170x560.jpg" alt="Header Image" className="blog-header container ms-5" />
             <div className="container-fluid py-4">
                 <div className='blog-container'>
                     {blogPosts.map((post, index) => (
