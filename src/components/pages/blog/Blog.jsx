@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import { Button, Image, Modal } from 'react-bootstrap';
 import './Blog.css';
 
@@ -17,7 +17,7 @@ const BlogPage = () => {
                 text: [
                     "Technological Advancements: The eLearning industry has benefited significantly from advancements in technology, particularly the internet, mobile devices, and digital content creation tools. These technologies have enabled the development of diverse eLearning solutions, including online courses, virtual classrooms, educational apps, and learning management systems (LMS).",
                     "Global Reach: One of the main advantages of eLearning is its ability to reach a global audience. Learners from different geographic locations can access educational content and participate in courses without the need for physical presence. This has led to the democratization of education, making learning accessible to people worldwide.",
-                   "Corporate Training and Professional Development: In addition to academic education, eLearning plays a crucial role in corporate training and professional development. Many businesses and organizations use eLearning platforms and resources to upskill their employees, deliver compliance training, and improve job performance."
+                    "Corporate Training and Professional Development: In addition to academic education, eLearning plays a crucial role in corporate training and professional development. Many businesses and organizations use eLearning platforms and resources to upskill their employees, deliver compliance training, and improve job performance."
                 ],
                 images: [
                     'https://static.voices.com/wp-content/uploads/2019/03/MR-3017-industry-elearning-1.jpg',
@@ -36,7 +36,7 @@ const BlogPage = () => {
                 text: [
                     "Company Overview: Discovery Education is a division of Discovery, Inc., which is known for its portfolio of television networks, including the Discovery Channel, Animal Planet, and TLC. Discovery Education provides digital textbooks, multimedia content, and professional development resources to educators around the world.",
                     "Curriculum Alignment: Discovery Education's resources are aligned with educational standards such as the Common Core State Standards (in the United States) and other national and international standards. This ensures that educators can easily integrate the content into their existing curriculum.",
-                   "Impact on Education: Discovery Education is committed to transforming teaching and learning through the use of technology and media. By providing dynamic and engaging educational content, Discovery Education aims to inspire students and empower educators to achieve academic success.",
+                    "Impact on Education: Discovery Education is committed to transforming teaching and learning through the use of technology and media. By providing dynamic and engaging educational content, Discovery Education aims to inspire students and empower educators to achieve academic success.",
                 ],
                 images: [
                     'https://allpostnews.co.uk/wp-content/uploads/2021/05/Discovery-Education-Experience-2-002.jpg',
@@ -54,7 +54,7 @@ const BlogPage = () => {
                 text: [
                     "Supporting Independence: As your child prepares for college, it's essential to encourage their independence. This includes fostering decision-making skills, time management, and problem-solving abilities. Gradually shifting responsibilities to your child helps them develop self-reliance, which is crucial for success in college and beyond.",
                     "Navigating the College Application Process: The college application process can be overwhelming for both parents and students. Offer guidance and support as your child researches colleges, prepares application materials, and navigates deadlines. Encourage them to explore a range of options and find the best fit for their interests, academic goals, and personal preferences.",
-                     "Fostering Social Connections: Building social connections is an integral part of the college experience. Encourage your child to participate in campus activities, join clubs or organizations, and make connections with peers who share similar interests. Support their efforts to develop friendships, build a supportive network, and engage in positive social interactions.",
+                    "Fostering Social Connections: Building social connections is an integral part of the college experience. Encourage your child to participate in campus activities, join clubs or organizations, and make connections with peers who share similar interests. Support their efforts to develop friendships, build a supportive network, and engage in positive social interactions.",
                 ],
                 images: [
                     'https://tse1.mm.bing.net/th?id=OIP.PafTb0btb_N6Pb7AaBfUygHaE8&pid=Api&P=0&h=180',
@@ -72,7 +72,7 @@ const BlogPage = () => {
                 text: [
                     "Self-efficacy: The book explores the concept of self-efficacy in teaching, which refers to a teacher's belief in their ability to positively impact student learning outcomes. Quigley discusses strategies for enhancing teacher self-efficacy and overcoming self-doubt.",
                     "Classroom management: Effective classroom management is essential for creating a positive and productive learning environment. Quigley offers advice on establishing clear expectations, managing behavior effectively, and fostering a positive classroom culture.",
-                     "Professional development: Continuous professional development is key to improving teaching practice and building confidence. Quigley offers guidance on seeking out professional learning opportunities, reflecting on teaching practice, and collaborating with colleagues to enhance teaching effectiveness.",
+                    "Professional development: Continuous professional development is key to improving teaching practice and building confidence. Quigley offers guidance on seeking out professional learning opportunities, reflecting on teaching practice, and collaborating with colleagues to enhance teaching effectiveness.",
                 ],
                 images: [
                     'https://www.teflcourse.net/uploads/teacher-portrait1.jpg',
@@ -127,89 +127,94 @@ const BlogPage = () => {
 
     return (
         <div>
-        <img src="https://contentadore.com/wp-content/uploads/2017/09/how-to-create-blog-1170x560.jpg" alt="Header Image" className="blog-header" />
-        <div className="container-fluid py-4">
-            <div className='blog-container'>
-                {blogPosts.map((post, index) => (
-                    <div key={post.id} className="row mb-5 align-items-center">
-                        <div className="col-md-10 mx-auto">
-                            <div className="card shadow">
-                                <div className="row">
-                                    {index % 2 === 0 ? (
-                                        <>
-                                            <div className="col-md-6 fade-left-enter">
-                                                <div className="blog-image-container">
-                                                    <Image
-                                                        src={post.imageSrc}
-                                                        alt={`Related Image ${post.id}`}
-                                                        className="img-fluid"
-                                                    />
+            <img src="https://contentadore.com/wp-content/uploads/2017/09/how-to-create-blog-1170x560.jpg" alt="Header Image" className="blog-header" />
+            <div className="container-fluid py-4">
+                <div className='blog-container'>
+                    {blogPosts.map((post, index) => (
+                        <div key={post.id} className="row mb-5 align-items-center">
+                            <div className="col-md-10 mx-auto">
+                                <div className="card shadow">
+                                    <div className="row">
+                                        {index % 2 === 0 ? (
+                                            <>
+                                                <div className="col-md-6 fade-left-enter">
+                                                    <div className="blog-image-container">
+                                                        <Image
+                                                            src={post.imageSrc}
+                                                            alt={`Related Image ${post.id}`}
+                                                            className="img-fluid"
+                                                        />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className="col-md-6 p-4 fade-right-enter">
-                                                <h5 className="card-title" style={{ fontSize: '30px' }}>{post.title}</h5>
-                                                <p className="card-text" style={{ fontSize: '20px' }}>{post.content}</p>
-                                                <Button variant="primary" onClick={() => handleReadMore(post)}>Read More</Button>
-                                            </div>
-                                        </>
-                                    ) : (
-                                        <>
-                                            <div className="col-md-6 p-4 fade-left-enter">
-                                                <h5 className="card-title" style={{ fontSize: '30px' }}>{post.title}</h5>
-                                                <p className="card-text" style={{ fontSize: '20px' }}>{post.content}</p>
-                                                <Button variant="primary" onClick={() => handleReadMore(post)}>Read More</Button>
-                                            </div>
-                                            <div className="col-md-6 fade-right-enter">
-                                                <div className="blog-image-container">
-                                                    <Image
-                                                        src={post.imageSrc}
-                                                        alt={`Related Image ${post.id}`}
-                                                        className="img-fluid"
-                                                    />
+                                                <div className="col-md-6 p-4 fade-right-enter">
+                                                    <h5 className="card-title" style={{ fontSize: '30px' }}>{post.title}</h5>
+                                                    <p className="card-text" style={{ fontSize: '20px' }}>{post.content}</p>
+                                                    <Button variant="primary" onClick={() => handleReadMore(post)}>Read More</Button>
                                                 </div>
-                                            </div>
-                                        </>
-                                    )}
+                                            </>
+                                        ) : (
+                                            <>
+                                                <div className="col-md-6 p-4 fade-left-enter">
+                                                    <h5 className="card-title" style={{ fontSize: '30px' }}>{post.title}</h5>
+                                                    <p className="card-text" style={{ fontSize: '20px' }}>{post.content}</p>
+                                                    <Button variant="primary" onClick={() => handleReadMore(post)}>Read More</Button>
+                                                </div>
+                                                <div className="col-md-6 fade-right-enter">
+                                                    <div className="blog-image-container">
+                                                        <Image
+                                                            src={post.imageSrc}
+                                                            alt={`Related Image ${post.id}`}
+                                                            className="img-fluid"
+                                                        />
+                                                    </div>
+                                                </div>
+                                            </>
+                                        )}
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
-        </div>
-        {selectedPost && (
-            <Modal show={showModal} onHide={() => setShowModal(false)} centered size="xl" backdrop="static">
-                <Modal.Header closeButton>
-                    <Modal.Title>{selectedPost.title}</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                    {selectedPost.modalContent.text.map((point, index) => {
-                        const [title, content] = point.split(':');
-                        return (
-                            <p key={index}>
-                                <strong>{title}:</strong> {content}
-                            </p>
-                        );
-                    })}
-                    <div className="d-flex flex-row justify-content-start flex-wrap">
-                        {selectedPost.modalContent.images.map((image, index) => (
-                            <div key={index} className={`modal-image-container fade-in-${index === 0 ? 'left' : index === 1 ? 'top' : 'right'}-enter`}>
-                                <Image src={image} alt={`Image ${index}`} className="img-thumbnail-modal" />
-                            </div>
-                        ))}
-                    </div>
-                </Modal.Body>
-            </Modal>
-        )}
-        <div className="imagefix1 text-center">
-  <div className="container">
+            {selectedPost && (
+                <Modal show={showModal} onHide={() => setShowModal(false)} centered size="xl" backdrop="static">
+                    <Modal.Header closeButton>
+                        <Modal.Title>{selectedPost.title}</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                        {selectedPost.modalContent.text.map((point, index) => {
+                            const [title, content] = point.split(':');
+                            return (
+                                <p key={index}>
+                                    <strong>{title}:</strong> {content}
+                                </p>
+                            );
+                        })}
+                        <div className="d-flex flex-row justify-content-start flex-wrap">
+                            {selectedPost.modalContent.images.map((image, index) => (
+                                <div key={index} className={`modal-image-container fade-in-${index === 0 ? 'left' : index === 1 ? 'top' : 'right'}-enter`}>
+                                    <Image src={image} alt={`Image ${index}`} className="img-thumbnail-modal" />
+                                </div>
+                            ))}
+                        </div>
+                    </Modal.Body>
+                </Modal>
+            )}
+            <div className='For_Background_Image'>
 
-    <h3>Tell Us What Are You Looking For</h3>
-    <h5>It strives to deliver value-based quality education and imbibe top-class management skills</h5>
-    <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
-  </div>
-</div>
+<div className="imagefix1 text-center">
+    <div className="container">
+
+        <h3>Tell Us What Are You Looking For</h3>
+        <h5>It strives to deliver value-based quality education and imbibe top-class management skills</h5>
+        <button className='contact_us_button'> <a href="/contact-us" target="_self"> CONTACT US </a></button>
     </div>
-);
+</div>
+
+</div>
+        </div>
+        
+    );
 };
 export default BlogPage;
