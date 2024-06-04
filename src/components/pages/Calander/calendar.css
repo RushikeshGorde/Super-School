@@ -1,0 +1,469 @@
+/* Add this to your CSS file or create a new one and import it */
+
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Hero section */
+  .hero {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Make hero section responsive */
+  @media (max-width: 1440px) {
+    .hero {
+      height: 60vh;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .hero {
+      height: 50vh;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .hero {
+      height: 40vh;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      height: 35vh;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero {
+      height: 30vh;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .hero {
+      height: 25vh;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .hero {
+      height: 20vh;
+    }
+  }
+  
+  /* FullCalendar styles */
+  .fc {
+    font-size: 1rem;
+    
+  }
+  
+  .fc-header-toolbar {
+    padding: 1rem;
+  }
+  
+  .fc-toolbar-button {
+    padding: 0.5rem 1rem;
+  }
+  
+  .fc-day-grid-event {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .fc-event-time {
+    font-size: 0.8rem;
+  }
+  
+  /* Make FullCalendar responsive */
+  @media (max-width: 1440px) {
+    .fc {
+      font-size: 0.9rem;
+    }
+    .fc-header-toolbar {
+      padding: 0.7rem;
+    }
+    .fc-toolbar-button {
+      padding: 0.35rem 0.8rem;
+    }
+    .fc-day-grid-event {
+      padding: 0.3rem;
+      
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .fc {
+      font-size: 0.8rem;
+    }
+    .fc-header-toolbar {
+      padding: 0.5rem;
+    }
+    .fc-toolbar-button {
+      padding: 0.25rem 0.6rem;
+    }
+    .fc-day-grid-event {
+      padding: 0.2rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .fc {
+      font-size: 0.7rem;
+    }
+    .fc-header-toolbar {
+      padding: 0.3rem;
+    }
+    .fc-toolbar-button {
+      padding: 0.15rem 0.3rem;
+    }
+    .fc-day-grid-event {
+      padding: 0.1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .fc {
+      font-size: 0.6rem;
+    }
+    .fc-header-toolbar {
+      padding: 0.2rem;
+    }
+    .fc-toolbar-button {
+      padding: 0.1rem 0.2rem;
+    }
+    .fc-day-grid-event {
+      padding: 0.1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .fc {
+      font-size: 0.5rem;
+    }
+    .fc-header-toolbar{
+      padding: 0.15rem;
+    }
+    .fc-toolbar-button {
+      padding: 0.08rem 0.15rem;
+    }
+    .fc-day-grid-event {
+      padding: 0.08rem;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .fc {
+      font-size: 0.4rem;
+    }
+    .fc-header-toolbar {
+      padding: 0.1rem;
+    }
+    .fc-toolbar-button {
+      padding: 0.05rem 0.1rem;
+    }
+    .fc-day-grid-event {
+      padding: 0.05rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .fc {
+      font-size: 0.3rem;
+      max-width: 100%;
+    }
+    .fc-header-toolbar {
+      padding: 0.05rem;
+    }
+    .fc-toolbar-button {
+      padding: 0.03rem 0.06rem;
+    }
+    .fc-day-grid-event {
+      padding: 0.03rem;
+      
+    }
+  }
+  
+  /* Modal styles */
+  .modal {
+    max-width: 90%;
+    margin: 1rem auto;
+  }
+  
+  .modal-header {
+    padding: 0.5rem;
+  }
+  
+  .modal-title {
+    font-size: 1.2rem;
+  }
+  
+  .modal-body {
+    padding: 1rem;
+  }
+  
+  .modal-footer {
+    padding: 0.5rem;
+  }
+  
+  /* Make Modal responsive */
+  @media (max-width: 1440px) {
+    .modal {
+      max-width: 85%;
+    }
+    .modal-header {
+      padding: 0.4rem;
+    }
+    .modal-title {
+      font-size: 1.1rem;
+    }
+    .modal-body {
+      padding: 0.8rem;
+    }
+    .modal-footer {
+      padding: 0.4rem;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .modal {
+      max-width: 80%;
+    }
+    .modal-header {
+      padding: 0.3rem;
+    }
+    .modal-title {
+      font-size: 1rem;
+    }
+    .modal-body {
+      padding: 0.6rem;
+    }
+    .modal-footer {
+      padding: 0.3rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .modal {
+      max-width: 75%;
+    }
+    .modal-header {
+      padding: 0.2rem;
+    }
+    .modal-title {
+      font-size: 0.9rem;
+    }
+    .modal-body {
+      padding: 0.4rem;
+    }
+    .modal-footer {
+      padding: 0.2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .modal {
+      max-width: 70%;
+    }
+    .modal-header {
+      padding: 0.1rem;
+    }
+    .modal-title {
+      font-size: 0.8rem;
+    }
+    .modal-body {
+      padding: 0.2rem;
+    }
+    .modal-footer {
+      padding: 0.1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .modal {
+      max-width: 65%;
+    }
+    .modal-header {
+      padding: 0.08rem;
+    }
+    .modal-title {
+      font-size: 0.7rem;
+    }
+    .modal-body {
+      padding: 0.15rem;
+    }
+    .modal-footer {
+      padding: 0.08rem;
+    }
+  }
+  
+  @media (max-width: 375px) {.modal {
+      max-width: 60%;
+    }
+    .modal-header {
+      padding: 0.05rem;
+    }
+    .modal-title {
+      font-size: 0.6rem;
+    }
+    .modal-body {
+      padding: 0.1rem;
+    }
+    .modal-footer {
+      padding: 0.05rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .modal {
+      max-width: 75%;
+    }
+    .modal-header {
+      padding: 0.03rem;
+    }
+    .modal-title {
+      font-size: 0.5rem;
+    }
+    .modal-body {
+      padding: 0.08rem;
+    }
+    .modal-footer {
+      padding: 0.03rem;
+    }
+  }
+  
+  /* Toast styles */
+  .toast {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .toast-body {
+    padding: 0.2rem;
+  }
+  
+  /* Make Toast responsive */
+  @media (max-width: 1440px) {
+    .toast {
+      font-size: 0.9rem;
+      padding: 0.4rem;
+    }
+    .toast-body {
+      padding: 0.15rem;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .toast {
+      font-size: 0.8rem;
+      padding: 0.3rem;
+    }
+    .toast-body {
+      padding: 0.1rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .toast {
+      font-size: 0.7rem;
+      padding: 0.2rem;
+    }
+    .toast-body {
+      padding: 0.05rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .toast {
+      font-size: 0.6rem;
+      padding: 0.1rem;
+    }
+    .toast-body {
+      padding: 0.03rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .toast {
+      font-size: 0.5rem;
+      padding: 0.08rem;
+    }
+    .toast-body {
+      padding: 0.02rem;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .toast {
+      font-size: 0.4rem;
+      padding: 0.05rem;
+    }
+    .toast-body {
+      padding: 0.01rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .toast {
+      font-size: 0.3rem;
+      padding: 0.03rem;
+    }
+    .toast-body {
+      padding: 0.005rem;
+    }
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 1440px) {
+    img {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    img {
+      max-width: 80%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    img {
+      max-width: 70%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    img {
+      max-width: 60%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    img {
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    img{
+      max-width: 40%;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    img {
+      max-width: 30%;
+    }
+  }

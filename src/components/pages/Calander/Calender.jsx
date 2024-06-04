@@ -47,6 +47,7 @@ import art from "./Image/art.jpeg";
 import cultural from "./Image/cultural.jpeg"
 import sm from "./Image/sm.jpg";
 import drama from "./Image/drama.jpeg";
+import './calendar.css'
 
 
 const CombinedComponent = () => {
@@ -385,7 +386,7 @@ const CombinedComponent = () => {
       
 
       <Container className="p-5 mt-5">
-        <FullCalendar
+      <FullCalendar
           plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
           initialView={"dayGridMonth"}
           headerToolbar={{
